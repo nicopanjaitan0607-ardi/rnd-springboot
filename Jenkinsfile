@@ -11,8 +11,8 @@ retriever: modernSCM(
 
 // The name you want to give your Spring Boot application
 // Each resource related to your app will be given this name
-appSourceUrl = "https://github/.com/monodot/hello.java.git"
-appSourceRef = "develop"
+appSourceUrl = "https://code.mylabzolution.com/nicopanjaitan0607/java-spring.git"
+appSourceRef = "main"
 
 
 appName = "hello-java-spring-boot"
