@@ -14,6 +14,10 @@ retriever: modernSCM(
 appSourceUrl = "https://code.mylabzolution.com/nicopanjaitan0607/java-spring.git"
 appSourceRef = "main"
 
+appFolder = "app"
+
+helmFolder = "basic-helm-spring-boot"
+
 
 appName = "hello-java-spring-boot"
 
