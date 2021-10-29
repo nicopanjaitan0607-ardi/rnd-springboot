@@ -23,7 +23,7 @@ appName = "hello-java-spring-boot"
 
 pipeline {
     // Use the 'maven' Jenkins agent image which is provided with OpenShift 
-   
+  agent {"maven"}
     stages {
         stage("Checkout") {
             steps {
