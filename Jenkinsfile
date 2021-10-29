@@ -27,7 +27,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-               
+              sh "mkdir ${appFolder}"
                 dir(appFolder) {
                     git url: "${appSourceUrl}", branch: "${appSourceRef}"
                 }
