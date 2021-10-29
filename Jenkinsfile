@@ -11,7 +11,7 @@ retriever: modernSCM(
 
 // The name you want to give your Spring Boot application
 // Each resource related to your app will be given this name
-appSourceUrl = "https://code.mylabzolution.com/nicopanjaitan0607/java-spring.git"
+appSourceUrl = "https://github.com/nicopanjaitan0607-ardi/rnd-springboot.git"
 appSourceRef = "main"
 
 appFolder = "app"
@@ -58,4 +58,4 @@ pipeline {
         // You could extend the pipeline by tagging the image,
         // or deploying it to a production environment, etc......
     }
-}
+}awdwada
